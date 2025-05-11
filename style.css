@@ -1,0 +1,559 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Margarine&family=Oswald:wght@200..700&family=Satisfy&display=swap');
+:root{
+    /* font family */
+    --ff-primary:"roboto", sans-serif;
+    --ff-secondary:"inter", sans-serif;
+    --ff-design:"satisfy", cursive;
+    --ff-brand:"margarine", sans-serif;
+
+
+    /* colors */
+    --clr-white:#fff;
+    --clr-dark:#333;
+    --clr-grey-1:#102a42;
+    --clr-grey-2:#617d98;
+    --clr-grey-3:#f1f5f8;
+    --clr-primary:#f53b57;
+    --clr-primary-light:#f04660;
+    --clr-secondary:#e9b949;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.one{
+    display: flex;
+    gap: 10px;
+    background-color: black;
+    color: white;
+    height: 80px;
+    padding: 20px;
+ 
+}
+.jolol{
+    position: relative;
+    top: 300px;
+}
+.qiller{
+    position: relative;
+    bottom: 360px;
+}
+.piller{
+    position: relative;
+    top: 100px;
+}
+.filla{
+    position: relative;
+    top: 400px;
+}
+.afiq{
+    position: relative;
+    top: 500px;
+}
+.willer{
+    position: relative;
+    top: 100px;
+}
+.biller{
+    position: relative;
+    bottom: 70px;
+}
+.twoz{
+    display: flex;
+    gap: 15px;position: relative;
+    left: 850px;
+    bottom: 15px;
+    font-size: 20px;
+}
+.mill:hover{
+    color:rgb(65, 236, 65);
+    transition: 0.5s;
+}
+.mill{
+    transition: 1s;
+}
+.two{
+    display: flex;
+    gap: 15px;
+    position: relative;
+    left: 650px;
+    font-size: 20px;
+}
+.zill,.xill,.cill,.aill,.sill{
+    font-family: var(--ff-brand);
+    transition: 0.5s;
+}
+.dill{
+    position: relative;
+    bottom: 5px;
+    transition: 0.5s;
+}
+.dill:hover{
+    opacity: 0.5;
+   
+
+}
+.ones{
+    background-color: black;
+    color: white;
+    
+}
+
+
+
+
+.zill:hover{
+    transition: 0.5s;
+    
+    color: red;
+}
+.xill:hover{
+    color: red;
+     transition: 0.5s;
+}
+.cill:hover{
+    color: red;
+     transition: 0.5s;
+}
+.aill:hover{
+    color: red;
+     transition: 0.5s;
+}
+.sill:hover{
+    color: red;
+     transition: 0.5s;
+}
+.dill{
+    font-family: var(--ff-brand);
+    cursor: pointer;
+}
+.monster{
+
+    font-family: var(--ff-brand);
+    color: var(--clr-white);
+    
+
+    font-weight: 400;
+    text-shadow: 2px 5px 5px var(--clr-primary);
+    animation: flame 1s infinite;
+    
+}
+
+
+
+.three{
+    width: 100%;
+}
+.four{
+   
+    padding: 10px;
+    position: relative;
+    left: 50px;
+    bottom: 500px;
+}
+.five{
+    width: 500px;
+}
+.six{
+    width: 420px;
+    position: relative;
+    top: 20px;
+    font-family: var(--ff-brand);
+
+}
+.seven{
+    width: 500px;
+    position: relative;
+    top: 30px;
+    font-family: var(--ff-brand);
+}
+.eight{
+    position: relative;
+    bottom: 100px;
+    left: 200px;
+}
+.king{
+    color: var(--clr-primary);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.nine{
+    position:relative;
+    top: 50px;
+  
+
+}
+
+.villen:hover{
+    background-color: black;
+    color: red;
+    transition: 0.5s;
+
+}
+.villen{
+    background-color: white; display: inline; padding: 10px;
+    transition: 1s;
+    border-radius: 5px;
+}
+.cilling{
+    background-color: white; width: 500px; position: relative;left: 440px;top: 30px;
+    transition: 1s;
+
+}
+.cilling:hover{
+    background-color: black;
+    color: red;
+    transition: 0.5s;
+}
+.jalal{
+    width: 60px;
+    position: relative;
+    left: 620px;
+    bottom: 370px;
+    cursor: pointer;
+    transition: 1s;
+    
+}
+.jalal:hover{
+    transform: translatex(-10px);
+    transition: 0.5s;
+    opacity: 0.5;
+}
+
+.sameer{
+    width: 60px;
+    position: relative;
+    left: 700px;
+    bottom: 430px;
+    cursor: pointer;
+    transition: 1s;
+}
+.aadhil{
+    width: 30px;
+    position: relative;
+    left: 260px;
+    bottom: 30px;
+}
+
+.sameer:hover{
+     transform: translatex(10px);
+    transition: 0.5s;
+    opacity: 0.5;
+
+}
+.nodii{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+  
+
+}
+.kings{
+ 
+    font-size: 50px;
+    color: transparent;
+    background-image: linear-gradient( 180deg,var(--clr-primary),var(--clr-secondary));
+    background-clip: text;
+    font-family: var(--ff-brand);
+    color: var(--clr-white);
+
+
+    font-weight: 400;
+    text-shadow: 2px 5px 5px var(--clr-primary);
+    animation: flame 1s infinite;
+    position: relative;
+    top: 10px;
+}
+
+
+
+.ten{
+    width: 500px;
+    position: relative;
+    left: 500px;
+    bottom: 300px;
+    transition: 1s;
+}
+.ten:hover{
+    opacity: 0.6;
+    transition: 0.5s;
+}
+.root:hover{
+    opacity: 0.6;
+    transition: 0.5s;
+
+}
+.root{
+    transition: 1s;
+}
+.nood:hover{
+    background-color: var(--clr-dark);
+    transition: 0.5s;
+}
+.nood{
+    transition: 1s;
+}
+
+
+.kings{
+    color: var(--clr-primary);
+}
+.leven{
+    text-align: center;
+    position: relative;
+    left: 200px;
+    bottom: 300px;
+    width: 1000px;
+}
+.twele{
+    position: relative;
+    top: 50px;
+    font-family: var(--ff-brand);
+
+    
+}
+.master{
+    position:relative ;
+    bottom: 200px;
+}
+.min{
+    position: relative;
+    left: 60px;
+    bottom: 130px;
+}
+.max{
+    position: relative;
+    left: 60px;
+    bottom: 50px;
+}
+.krish{
+    width: 100%;
+}
+.hashim{
+    position: relative;
+    bottom: 600px;
+}
+.nood{
+    background-color:orangered;
+    width: 400px;
+    height: 300px;
+
+ 
+}
+.billa{
+    position: relative;
+    bottom: 500px;
+}
+.jaleel{
+    background-color: rgb(243, 101, 49);
+    padding: 10px;
+    display: inline;
+    color:black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 1000;
+    transition: 1s;
+}
+.jaleel:hover{
+    cursor: pointer;
+    text-decoration: underline ;
+    color: rgb(243, 101, 49) ;
+    background-color:black ;
+    transition: 1s;
+}
+.miss{
+     font-family: var(--ff-brand);
+    color: black;
+    
+    font-weight: 300;
+    text-shadow: 2px 5px 5px red;
+    font-size: 15px;
+}
+.jafar{
+    position: relative;
+    left: 200px;
+    bottom: 250px;
+   
+}
+.mani{
+     background-color: black;
+    padding: 10px;
+    display: inline;
+    color: rgb(243, 101, 49);
+    font-family:var(--ff-secondary);
+    font-weight: 1000;
+    position: relative;
+    right: 450px;
+
+   
+   
+}
+.meww{
+    position: relative;
+    bottom: 700px;
+    left: 940px;
+    opacity: 0.5;
+   
+}
+/* douttttttttttttttttttttttttttttt */
+
+.mani:hover{
+    cursor: pointer;
+     text-decoration: underline;
+
+}
+.miller{
+    border:solid black 3px;
+    
+    padding-left: 100px;
+    padding: 20px;
+    margin: 20px;
+    position: relative;
+    bottom: 200px;
+  
+    
+}
+.yusuf{
+    gap: 10px;
+    justify-content: center;
+    position: relative;
+    bottom: 100px;
+  
+  
+}
+.ban{
+    transition: 1s;
+}
+.ban:hover{
+    color: red;
+    cursor: pointer;
+    transition: 0.5s;
+
+}
+
+
+
+.van{
+    transition: 1s;
+}
+.van:hover{
+    color: red;
+    cursor: pointer;
+    transition: 0.5s;
+
+}
+.kan{
+    transition: 1s;
+}
+.kan:hover{
+    color: red;
+    cursor: pointer;
+    transition: 0.5s;
+
+}
+.san{
+    transition: 1s;
+}
+.san:hover{
+    color: red;
+    cursor: pointer;
+    transition: 0.5s;
+
+}
+.zoss{
+
+}
+.zoss img:hover{
+    color: red;
+ 
+}
+
+
+
+
+.bala{
+    color: var(--clr-primary);
+ 
+    font-family:var(--ff-brand);
+    background-color: rgb(243, 101, 49) ;
+    color: black;
+    padding: 10px;
+    display: inline;
+    position: relative;
+    left: 580px;
+ 
+
+    
+    
+}
+.villa{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.mlik{
+    padding-top: 5px;
+  
+}
+.killer{
+    position: relative; top: 60px;  background-color: black;color: white; display: inline;padding: 10px;
+    transition: 1s;
+
+
+}
+.killer:hover{
+    background-color: red;
+    color: black;
+    transition: 0.5s;
+
+  
+}
+.winter{
+    background-color: black; color: white;   width: 150px; padding: 10px; text-align: center;
+    transition: 1s;
+}
+.winter:hover{
+      background-color: red;
+    color: black;
+    transition: 0.5s;
+
+}
+.john{
+    background-color: black; color: white;width: 200px;height: 40px; padding: 10px; text-align: center; position: relative;left: 600px;bottom: 20px; font-size: 20px;padding-top: 5px;
+    transition: 1s;
+}
+.john:hover{
+      background-color: red;
+    color: black;
+    transition: 0.5s;
+
+}
+.viller{
+    background-color: black; text-align: center; position: relative;left: 120px; top: 50px; color: white;width: 150px;height: 50px; padding: 10px; font-size: 20px;
+    transition: 1s;
+
+}
+
+
+
+.viller:hover{
+    background-color: white;
+    color: red;
+    transition: 1s;
+}
+.siller{
+    background-color: black; text-align: center; position: relative;left: 120px; top: 40px; color: white;width: 150px;height: 50px; padding: 10px; font-size: 20px;
+    transition: 1s;
+}
+.siller:hover{
+    background-color: white;
+    color: red;
+    transition: 1s;
+}
+.niller{
+    background-color: black; text-align: center; position: relative;left: 120px; top: 40px; color: white;width: 150px;height: 50px; padding: 10px; font-size: 20px;
+    transition: 1s;
+}
+.niller:hover{
+    background-color: white;
+    color: red;
+    transition: 1s;
+}
